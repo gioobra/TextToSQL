@@ -1,6 +1,7 @@
 # 🧠 Talk To SQL: Converse com seus Bancos de Dados em Linguagem Natural
-Uma aplicação web interativa construída com Streamlit e LangChain que traduz perguntas em português para consultas SQL, permitindo que você converse diretamente com seus bancos de dados PostgreSQL e MySQL.
 ---
+Uma aplicação web interativa construída com Streamlit e LangChain que traduz perguntas em português para consultas SQL, permitindo que você converse diretamente com seus bancos de dados PostgreSQL e MySQL.
+
 # 🚀 Visão Geral
 Este projeto tem como objetivo democratizar o acesso a dados, eliminando a necessidade de conhecimento técnico em SQL para realizar consultas. Utilizando o poder dos Grandes Modelos de Linguagem (LLMs) através da API do Google Gemini e do framework LangChain, esta ferramenta atua como um tradutor inteligente:
 1. **Você pergunta:** "Quantos alunos estão matriculados em Ciência da Computação?"
