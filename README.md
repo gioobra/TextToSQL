@@ -7,20 +7,20 @@ Este projeto tem como objetivo democratizar o acesso a dados, eliminando a neces
 2. **A IA traduz:** Gera o comando ``SELECT COUNT(id_aluno) FROM matriculas WHERE id_curso = 1;``
 3. **A aplicação executa:** Envia a consulta para o banco de dados conectado.
 4. **Você recebe a resposta:** O resultado da consulta é exibido de forma clara e legível.
----
+
 # ✨ Principais Funcionalidades
 - Suporte a Múltiplos Bancos de Dados: Conecte-se facilmente a servidores PostgreSQL e MySQL.
 - Conexão Interativa: Interface segura que permite ao usuário inserir suas credenciais (host, usuário, senha) e escolher o banco de dados alvo de uma lista populada dinamicamente.
 - Visualização da Consulta SQL: Veja exatamente qual comando SQL foi gerado pela IA para cada pergunta, promovendo transparência e aprendizado.
 - Diagrama Lógico do Esquema: Visualize a estrutura do seu banco de dados com um diagrama de Entidade-Relacionamento gerado automaticamente, facilitando a compreensão das tabelas e suas relações.
 - Interface Amigável: Interface limpa e intuitiva construída com Streamlit.
----
+  
 # 🛠️ Tecnologias Utilizadas
 - Frontend: Streamlit
 - Backend & Orquestração de IA: Python, LangChainModelo de Linguagem (LLM): Google Gemini Pro via API
 - Bancos de Dados: PostgreSQL, MySQL
 - Visualização de Esquema: Graphviz
----
+
 # ⚙️ Como Executar o Projeto Localmente
 Siga estes passos para configurar e rodar a aplicação na sua máquina.
 1. Pré-requisitos
@@ -67,7 +67,7 @@ Você pode obter uma chave gratuita no Google AI Studio.
    Com o ambiente virtual ativado, inicie o servidor do Streamlit:
    ``streamlit run main.py``
 Seu navegador abrirá automaticamente com a aplicação em execução!
----
+
 # 👨‍💻 Como Usar
 1. Abra a aplicação no seu navegador.
 2. Na barra lateral esquerda, escolha o tipo de banco de dados (PostgreSQL ou MySQL).
@@ -77,7 +77,7 @@ Seu navegador abrirá automaticamente com a aplicação em execução!
 6. Na coluna da direita, um diagrama do esquema do banco de dados será exibido.
 7. Na coluna da esquerda, digite sua pergunta em português na área de texto e clique em "Perguntar".
 8. Abaixo, a consulta SQL gerada e a resposta do banco de dados serão exibidas.
----
+
 # 📄 Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
