@@ -1,5 +1,4 @@
 # 🧠 Talk To SQL: Converse com seus Bancos de Dados em Linguagem Natural
----
 Uma aplicação web interativa construída com Streamlit e LangChain que traduz perguntas em português para consultas SQL, permitindo que você converse diretamente com seus bancos de dados PostgreSQL e MySQL.
 
 # 🚀 Visão Geral
